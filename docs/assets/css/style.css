@@ -1003,7 +1003,15 @@ textarea.form-input::-webkit-resizer { display: none; }
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   }
 
+  .contact-info {
+    max-width: 100%;
+    width: 100%;
+  }
 
+  .contact-info .contact-link {
+    white-space: normal;   /* allow wrapping */
+    word-break: break-all; /* break long emails if needed */
+  }
 
   /**
    * #PORTFOLIO, BLOG 
