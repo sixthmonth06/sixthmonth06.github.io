@@ -431,8 +431,13 @@ main {
 }
 
 .contact-info {
-  max-width: calc(100% - 46px);
-  width: calc(100% - 46px);
+  max-width: 100%;
+  width: 100%;
+}
+
+.contact-info .contact-link {
+  white-space: normal;   /* allow wrapping */
+  word-break: break-all; /* break long emails if needed */
 }
 
 .contact-title {
