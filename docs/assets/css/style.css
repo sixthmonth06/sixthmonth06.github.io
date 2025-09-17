@@ -1138,7 +1138,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: calc(100% - 64px);
   }
 
-
+  .contact-info .contact-link {
+    white-space: normal;   /* allow wrapping */
+    word-break: break-all; /* break long emails if needed */
+  }
 
   /**
    * #NAVBAR
